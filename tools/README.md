@@ -29,17 +29,24 @@ downloadable plan asks for an email. The flow:
 1. Visitor answers all ten questions and sees their channel.
 2. They click **Download my plan** → a dialog explains the plan comes
    by email.
-3. **Send it to me** sends them to the Systeme.io opt-in page, which
-   already tags them, emails the PDF and subscribes them to a campaign
-   (automation rule on funnel step *Flood Your Funnel With Traffic
-   Guide Lead Magnet*).
-4. The Systeme.io thank-you page needs a button pointing back at this
-   page with `?unlocked=1` on the end. That flips the gate open, stores
-   it in the browser and starts the download automatically.
+3. **Send it to me** sends them to the dedicated opt-in page in the
+   Systeme.io funnel *[KMB] Flood Your Funnel Quiz*.
+4. That funnel's automation rule tags them `Flood Your Funnel: Quiz`
+   (attribution) **and** `Fill Ur Funnel Freebie`, sends the same
+   automation email and subscribes them to the same campaign as the
+   original lead magnet, so the nurture is unchanged.
+5. The funnel's thank-you page needs a button pointing back at this page
+   with `?unlocked=1` on the end. That flips the gate open, stores it in
+   the browser and starts the download automatically.
 
-**Setup still needed in Systeme.io:** add that return button to the
-thank-you page at `/fyf-ty`, pointing at
-`https://<wherever-this-page-lives>/?unlocked=1`.
+**Setup still needed in Systeme.io** (both are page-editor jobs, no API
+tool can do them):
+
+- Give the opt-in page its content and a readable slug. If you change
+  the slug, change `GATE.optinUrl` below to match.
+- On the thank-you page, set the primary button's URL to
+  `https://<wherever-this-page-lives>/?unlocked=1`. Without it, people
+  opt in and have no route back to their download.
 
 Anyone already on the list can click *Already on Karrie's list? Unlock
 it here* to skip the round trip. The gate is deliberately soft — it is
