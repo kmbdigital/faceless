@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout A — The statement</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Lato',system-ui,sans-serif;background:#102A43}
+</style>
+</helmet>
+<div style="width: 800px; height: 1200px; box-sizing: border-box; padding: 88px 72px; background: #102A43; display: flex; flex-direction: column;">
+
+  <div style="font-family: 'Lato', sans-serif; font-size: 16px; font-weight: 900; letter-spacing: 0.18em; text-transform: uppercase; color: #E8628C;">First Thousand Mechanics</div>
+
+  <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: center;">
+    <div style="font-family: 'Libre Baskerville', Georgia, serif; font-size: 78px; line-height: 1.16; color: #FAF7F2;">The first $1,000 needs no audience</div>
+    <div style="height: 24px;"></div>
+    <div style="width: 96px; height: 6px; background: #E8628C;"></div>
+    <div style="height: 32px;"></div>
+    <div style="font-family: 'Lato', sans-serif; font-size: 24px; line-height: 1.5; color: #FAF7F2; opacity: 0.72; max-width: 560px;">Only the version they sell you does.</div>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 14px;">
+    <div style="font-family: 'Lato', sans-serif; font-size: 18px; font-weight: 700; color: #FAF7F2; opacity: 0.6;">@karrienoor</div>
+  </div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":800,"height":1200}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

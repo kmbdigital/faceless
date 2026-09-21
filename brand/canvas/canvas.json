@@ -1,0 +1,21 @@
+{
+  "v": 3,
+  "createdOnFiles": { "v": 1, "at": "2026-09-21T03:36:00Z" },
+  "title": "Pink Rule Cover System",
+  "launch": { "view": "canvas" },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": { "x": 0, "y": 0, "w": 880, "h": 560, "title": "The rule, in detail" },
+    "LayoutA.dc.html": { "x": 0, "y": 980, "w": 800, "h": 1200, "title": "A · The statement" },
+    "LayoutB.dc.html": { "x": 880, "y": 980, "w": 800, "h": 1200, "title": "B · The desk" },
+    "LayoutC.dc.html": { "x": 1760, "y": 980, "w": 800, "h": 1200, "title": "C · The proof" }
+  },
+  "order": ["Main.dc.html", "LayoutA.dc.html", "LayoutB.dc.html", "LayoutC.dc.html"],
+  "notes": {
+    "t1": { "x": 0, "y": -300, "text": "The pink rule", "kind": "title1", "maxW": 880 },
+    "t2": { "x": 0, "y": 680, "text": "The three layouts you rotate", "kind": "title1", "maxW": 2560 },
+    "n1": { "x": 960, "y": 60, "text": "Navy #102A43, pink #E8628C. Every cover uses the same 96×6px pink bar, 24px under the headline, flush left. That bar is the cue — it does the job a face would do.", "w": 420, "color": "blue" },
+    "n2": { "x": 2640, "y": 980, "text": "Layout C is where screenshots live. Chapter 6: a dated screenshot beats an adjective every time.", "w": 380, "color": "pink" }
+  },
+  "designSystems": []
+}

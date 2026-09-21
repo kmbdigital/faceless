@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout C — The proof</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Lato',system-ui,sans-serif;background:#FAF7F2}
+</style>
+</helmet>
+<div style="width: 800px; height: 1200px; box-sizing: border-box; padding: 88px 72px; background: #FAF7F2; display: flex; flex-direction: column;">
+
+  <div style="font-family: 'Lato', sans-serif; font-size: 16px; font-weight: 900; letter-spacing: 0.18em; text-transform: uppercase; color: #E8628C;">The $1,000 Map</div>
+
+  <div style="height: 40px;"></div>
+
+  <div style="font-family: 'Libre Baskerville', Georgia, serif; font-size: 56px; line-height: 1.18; color: #102A43;">Four people at $250</div>
+  <div style="height: 24px;"></div>
+  <div style="width: 96px; height: 6px; background: #E8628C;"></div>
+
+  <div style="height: 48px;"></div>
+
+  <div style="background: #FFFFFF; border: 1px solid #E5DFD6; padding: 36px 32px; display: flex; flex-direction: column; gap: 0;">
+    <div style="display: flex; padding-bottom: 14px; border-bottom: 2px solid #102A43;">
+      <div style="flex-grow: 1; font-size: 14px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; color: #102A43;">What she sells</div>
+      <div style="width: 110px; font-size: 14px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; color: #102A43;">Price</div>
+      <div style="width: 90px; font-size: 14px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; color: #102A43; text-align: right;">How many</div>
+    </div>
+    <div style="display: flex; padding: 18px 0; border-bottom: 1px solid #EFE9E0;">
+      <div style="flex-grow: 1; font-size: 19px; color: #2B2B2B;">A done-for-you service</div>
+      <div style="width: 110px; font-size: 19px; font-weight: 700; color: #2B2B2B;">$250</div>
+      <div style="width: 90px; font-size: 19px; font-weight: 900; color: #E8628C; text-align: right;">4</div>
+    </div>
+    <div style="display: flex; padding: 18px 0; border-bottom: 1px solid #EFE9E0;">
+      <div style="flex-grow: 1; font-size: 19px; color: #2B2B2B;">A small digital product</div>
+      <div style="width: 110px; font-size: 19px; font-weight: 700; color: #2B2B2B;">$27</div>
+      <div style="width: 90px; font-size: 19px; font-weight: 900; color: #E8628C; text-align: right;">37</div>
+    </div>
+    <div style="display: flex; padding: 18px 0 0 0;">
+      <div style="flex-grow: 1; font-size: 19px; color: #2B2B2B;">A short course</div>
+      <div style="width: 110px; font-size: 19px; font-weight: 700; color: #2B2B2B;">$97</div>
+      <div style="width: 90px; font-size: 19px; font-weight: 900; color: #E8628C; text-align: right;">11</div>
+    </div>
+  </div>
+
+  <div style="height: 28px;"></div>
+  <div style="font-family: 'Lato', sans-serif; font-size: 20px; line-height: 1.55; color: #2B2B2B;">Tier one needs no audience at all. Four conversations with people you already know.</div>
+
+  <div style="flex-grow: 1;"></div>
+  <div style="font-family: 'Lato', sans-serif; font-size: 18px; font-weight: 700; color: #102A43; opacity: 0.55;">@karrienoor</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":800,"height":1200}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body></html>
