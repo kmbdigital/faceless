@@ -175,9 +175,13 @@ for (const item of [].concat(require('./content.js'), require('./content2.js')))
     for (const l of lines)
       P({spacing: {after: 90, line: 280}, indent: {left: 200},
          children: [new TextRun({text: l, font: "Lato", size: 20, color: "2B2B2B"})]});
-    P({spacing: {after: 130}, indent: {left: 200},
+    P({spacing: {after: 200}, indent: {left: 200},
        border: {bottom: {style: BorderStyle.SINGLE, size: 4, color: "E5DFD6", space: 6}},
        children: [new TextRun({text: "", font: "Lato"})]});
+    P({spacing: {before: 60, after: 40},
+       children: [new TextRun({text: "Now write yours.", font: "Lato", size: 20, bold: true, color: "102A43"})]});
+    for (let i = 0; i < 7; i++) out.push(wline());
+    P({spacing: {after: 260}, children: [new TextRun({text: "", font: "Lato"})]});
     continue;
   }
 
