@@ -20,7 +20,8 @@ module.exports = [
   ["7", "The Five Signals \u2014 What Replaces a Face"], ["8", "Is This Halal?"],
   ["9", "What You'll Offer"], ["10", "Pricing & Income Goals"], ["11", "Your Freebie"],
   ["12", "Setting Up Your Shop"], ["13", "Automate With Email"], ["14", "Building Community"],
-  ["15", "Faceless Marketing \u2014 Instagram"], ["16", "Business Basics"], ["17", "It's Go Time"],
+  ["15", "Faceless Marketing \u2014 Instagram"], ["16", "Your First Sale"],
+  ["17", "Business Basics"], ["18", "It's Go Time"],
   ["", "The Templates That Go With This Book"],
   ["", "About Karrie Noor"], ["", "What To Do Next"]
 ]},

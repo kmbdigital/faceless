@@ -50,18 +50,18 @@ earlier framework that overlapped another author's toolkit.
 
 Community (1,012 -> ~650 words) and What You'll Offer (1,138 -> ~700).
 
-## Structure (v4)
+## Structure (v5)
 
-17 chapters. content.js holds front matter, copyright, TOC and chapters 1-8;
-content2.js holds chapters 9-17 plus the bonus page and back matter.
+18 chapters. content.js holds front matter, copyright, TOC and chapters 1-8;
+content2.js holds chapters 9-18 plus the bonus page and back matter.
 
 1 Set Your Intention · 2 Create Your Vision · 3 Build Your Brand · 4 Pick a Platform ·
 5 Staying Faceless · 6 Optimising Your Profile · 7 The Five Signals · 8 Is This Halal? ·
 9 What You'll Offer · 10 Pricing & Income Goals · 11 Your Freebie · 12 Setting Up Your Shop ·
 13 Automate With Email · 14 Building Community · 15 Faceless Marketing - Instagram ·
-16 Business Basics · 17 It's Go Time
+16 Your First Sale · 17 Business Basics · 18 It's Go Time
 
-Chapters 5 and 8 are original, not from the source. Chapter 8 is written as questions
+Chapters 5, 8 and 16 are original, not from the source. Chapter 8 is written as questions
 to settle plus space to record answers, with an explicit instruction to take contested
 points to someone qualified. It is not, and must not become, a set of rulings.
 
