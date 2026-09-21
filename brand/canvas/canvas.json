@@ -1,21 +1,130 @@
 {
   "v": 3,
-  "createdOnFiles": { "v": 1, "at": "2026-09-21T03:36:00Z" },
-  "title": "Pink Rule Cover System",
-  "launch": { "view": "canvas" },
-  "pages": [],
+  "attachments": {},
   "boards": {
-    "Main.dc.html": { "x": 0, "y": 0, "w": 880, "h": 560, "title": "The rule, in detail" },
-    "LayoutA.dc.html": { "x": 0, "y": 980, "w": 800, "h": 1200, "title": "A · The statement" },
-    "LayoutB.dc.html": { "x": 880, "y": 980, "w": 800, "h": 1200, "title": "B · The desk" },
-    "LayoutC.dc.html": { "x": 1760, "y": 980, "w": 800, "h": 1200, "title": "C · The proof" }
+    "Accents.dc.html": {
+      "h": 760,
+      "title": "Accent options",
+      "w": 1760,
+      "x": 0,
+      "y": 2380
+    },
+    "LayoutA.dc.html": {
+      "h": 1200,
+      "title": "A · The statement",
+      "w": 800,
+      "x": 0,
+      "y": 980
+    },
+    "LayoutB.dc.html": {
+      "h": 1200,
+      "title": "B · The desk",
+      "w": 800,
+      "x": 880,
+      "y": 980
+    },
+    "LayoutC.dc.html": {
+      "h": 1200,
+      "title": "C · The proof",
+      "w": 800,
+      "x": 1760,
+      "y": 980
+    },
+    "Main.dc.html": {
+      "h": 560,
+      "title": "The rule, in detail",
+      "w": 880,
+      "x": 0,
+      "y": 0
+    },
+    "NonPink.dc.html": {
+      "h": 760,
+      "title": "No pink at all",
+      "w": 2160,
+      "x": 0,
+      "y": 3460
+    },
+    "Squint.dc.html": {
+      "x": 0,
+      "y": 4560,
+      "w": 1760,
+      "h": 640,
+      "title": "The squint test"
+    }
   },
-  "order": ["Main.dc.html", "LayoutA.dc.html", "LayoutB.dc.html", "LayoutC.dc.html"],
+  "createdOnFiles": {
+    "at": "2026-09-21T03:36:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
   "notes": {
-    "t1": { "x": 0, "y": -300, "text": "The pink rule", "kind": "title1", "maxW": 880 },
-    "t2": { "x": 0, "y": 680, "text": "The three layouts you rotate", "kind": "title1", "maxW": 2560 },
-    "n1": { "x": 960, "y": 60, "text": "Navy #102A43, pink #E8628C. Every cover uses the same 96×6px pink bar, 24px under the headline, flush left. That bar is the cue — it does the job a face would do.", "w": 420, "color": "blue" },
-    "n2": { "x": 2640, "y": 980, "text": "Layout C is where screenshots live. Chapter 6: a dated screenshot beats an adjective every time.", "w": 380, "color": "pink" }
+    "n1": {
+      "color": "blue",
+      "text": "Navy #102A43, amber #D6A23E. Every cover uses the same 96×6px amber bar, 24px under the headline, flush left. That bar is the cue — it does the job a face would do.",
+      "w": 420,
+      "x": 960,
+      "y": 60
+    },
+    "n2": {
+      "color": "pink",
+      "text": "Layout C is where screenshots live. Chapter 6: a dated screenshot beats an adjective every time.",
+      "w": 380,
+      "x": 2640,
+      "y": 980
+    },
+    "t1": {
+      "kind": "title1",
+      "maxW": 880,
+      "text": "The amber rule",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    },
+    "t2": {
+      "kind": "title1",
+      "maxW": 2560,
+      "text": "The three layouts you rotate",
+      "w": 240,
+      "x": 0,
+      "y": 680
+    },
+    "t3": {
+      "kind": "title1",
+      "maxW": 1760,
+      "text": "Choosing the accent",
+      "w": 240,
+      "x": 0,
+      "y": 2080
+    },
+    "t4": {
+      "kind": "title1",
+      "maxW": 2160,
+      "text": "If not pink",
+      "w": 240,
+      "x": 0,
+      "y": 3200
+    },
+    "t5": {
+      "kind": "title1",
+      "maxW": 1760,
+      "text": "Narrowing it down",
+      "w": 240,
+      "x": 0,
+      "y": 4300
+    }
   },
-  "designSystems": []
+  "order": [
+    "Main.dc.html",
+    "LayoutA.dc.html",
+    "LayoutB.dc.html",
+    "LayoutC.dc.html",
+    "Accents.dc.html",
+    "NonPink.dc.html",
+    "Squint.dc.html"
+  ],
+  "pages": [],
+  "title": "Amber Rule Cover System"
 }
