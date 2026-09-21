@@ -49,3 +49,30 @@ earlier framework that overlapped another author's toolkit.
 ## Still thinner than the source
 
 Community (1,012 -> ~650 words) and What You'll Offer (1,138 -> ~700).
+
+## Structure (v4)
+
+17 chapters. content.js holds front matter, copyright, TOC and chapters 1-8;
+content2.js holds chapters 9-17 plus the bonus page and back matter.
+
+1 Set Your Intention · 2 Create Your Vision · 3 Build Your Brand · 4 Pick a Platform ·
+5 Staying Faceless · 6 Optimising Your Profile · 7 The Five Signals · 8 Is This Halal? ·
+9 What You'll Offer · 10 Pricing & Income Goals · 11 Your Freebie · 12 Setting Up Your Shop ·
+13 Automate With Email · 14 Building Community · 15 Faceless Marketing - Instagram ·
+16 Business Basics · 17 It's Go Time
+
+Chapters 5 and 8 are original, not from the source. Chapter 8 is written as questions
+to settle plus space to record answers, with an explicit instruction to take contested
+points to someone qualified. It is not, and must not become, a set of rulings.
+
+## Affiliate slots
+
+Marked with {link: ...} blocks rendering as [ LINK: ... ]. Currently open:
+Skool, Systeme.io, keyword research tool, templates source, images/stock video source.
+Fill these before publishing or remove the block.
+
+## Page count
+
+`python3 pagecount.py` estimates pages by walking word/document.xml. It is an estimate,
+not a render - LibreOffice cannot open docx-js output in this environment. Confirm the
+real count, and that the total is even, in Word before uploading to KDP.

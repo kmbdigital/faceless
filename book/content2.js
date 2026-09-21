@@ -1,7 +1,7 @@
 module.exports = [
 
 {pb: true},
-{h1: "Chapter 7", sub: "What You'll Offer"},
+{h1: "Chapter 9", sub: "What You'll Offer"},
 {p: "Now decide what you are actually going to sell. The rule is simple: your offer solves a real problem for the dream customer you named in Chapter 2. Not a topic. A problem."},
 {p: "Digital products are the usual starting point, and for good reason — no inventory, no shipping, no postage, and you make the thing once. But before you create anything, make sure the problem is real and that people are already looking for an answer to it."},
 
@@ -25,8 +25,35 @@ module.exports = [
 {prompt: "My first product idea — the one problem it solves, and the format", lines: 5},
 {p: "Once you are live, pay attention to the other problems people mention while they are using your first product. Those become your next ones, and you will not have to go looking for them."},
 
+{h2: "Your “I help” statement"},
+{p: "Before you make anything, write one sentence: I help [who] to [do what] without [the thing they dread]. It is not a slogan and it does not go on your profile unless you want it to. Its job is to stop you building a product for nobody in particular."},
+{example: "“I help working mothers plan a week of school lunches without cooking anything new.” “I help new Muslim women get through their first Ramadan without feeling like a guest.” “I help beginners sell their first digital product without showing their face.”"},
+{p: "If you cannot finish the sentence, the problem is not your writing. It is that you have not narrowed the person yet. Go back to Chapter 2."},
+{prompt: "I help ______ to ______ without ______", lines: 4},
+
+{h2: "Actually making it"},
+{p: "Two routes. Neither is better — they cost different things."},
+{b: ["Build it from scratch. Open a design tool, start from a blank template or a free one, and write the whole thing yourself. Costs time, costs nothing else, and every word is yours.",
+     "Start from a template or a ready-made product you have a licence to modify. Costs money, saves weeks, and puts you in front of a customer faster. This is a normal and legitimate way to start — as long as the licence actually permits it."]},
+{warn: "If you buy something to modify and sell, read the licence before you buy, not after. Licences differ enormously. Some permit editing and resale. Some permit editing for personal use only. Some permit resale but not the transfer of resale rights onward. “PLR” and “commercial use” are marketing words, not legal ones — the terms of the specific listing are what bind you. If the licence is not published, assume the answer is no."},
+{p: "The same applies to design templates, fonts, stock photos and stock video. A free template inside a design tool is usually free to use commercially only once you have substantially customised it — check the platform’s own licensing page, because they do change."},
+{link: "Where I get my templates", n: "— [your affiliate link]"},
+{link: "Where I get my images and stock video", n: "— [your affiliate link]"},
+
+{h2: "The build, step by step"},
+{check: ["Write the content first, in a plain document. No design, no colours, no fonts — just the words and the order.",
+         "Cut it by a third. Your first product is almost certainly too long.",
+         "Choose your format: PDF guide, workbook, template pack, checklist, short course.",
+         "Design it, using your brand colours and your two fonts from Chapter 3. Nothing else.",
+         "Add the fill-in space if it is a workbook. People finish things they can write in.",
+         "Export as a PDF and open it on your phone. Most of your buyers will.",
+         "Give one honest person a copy before you sell it, and ask them what confused them."]},
+{tip: "Do not design first. Designing a beautiful product around thin content is the most enjoyable way there is to waste two weeks, and you will not notice you are doing it."},
+{prompt: "My product — format, rough length, and the date it will be finished", lines: 4},
+{p: "Write a real date on that last line. Not “soon.” A product with no finish date is a hobby, and hobbies do not reach anyone."},
+
 {pb: true},
-{h1: "Chapter 8", sub: "Pricing & Income Goals"},
+{h1: "Chapter 10", sub: "Pricing & Income Goals"},
 {p: "Do not overthink this part. Pick a price. It is always easier to start lower and raise it than to start high and walk it back."},
 {p: "A simple approach: launch at an introductory price, use that window to collect a few honest testimonials, then raise the price once you have real proof behind it."},
 
@@ -53,7 +80,7 @@ module.exports = [
 {prompt: "Year goal", lines: 2},
 
 {pb: true},
-{h1: "Chapter 9", sub: "Your Freebie"},
+{h1: "Chapter 11", sub: "Your Freebie"},
 {p: "A freebie, or lead magnet, is something genuinely useful you give away in exchange for an email address."},
 {p: "Why it matters more than it looks:"},
 {b: ["List building. Everyone who signs up is someone you can reach directly, without an algorithm deciding whether you are allowed to.",
@@ -77,7 +104,7 @@ module.exports = [
 {prompt: "The first line of my freebie email", lines: 3},
 
 {pb: true},
-{h1: "Chapter 10", sub: "Setting Up Your Shop"},
+{h1: "Chapter 12", sub: "Setting Up Your Shop"},
 {p: "You need one place where your freebie, your paid product and your email list all live, so people can find you and buy from you without extra steps."},
 {p: "A single all-in-one platform — email, a simple checkout, basic automation — is enough to start. You do not need five different tools stitched together, and stitching them together is a very effective way to spend three weeks not launching."},
 
@@ -92,7 +119,7 @@ module.exports = [
 {prompt: "The platform I am using, and the date my checkout will be tested", lines: 3},
 
 {pb: true},
-{h1: "Chapter 11", sub: "Automate With Email"},
+{h1: "Chapter 13", sub: "Automate With Email"},
 {p: "This is the chapter that turns a set of pieces into a business that runs without you sitting at it."},
 {p: "An email flow is simply a sequence of emails that sends automatically, on a schedule, to everyone who joins your list. You write it once. It works for everyone who arrives afterwards, whether that is next week or next year."},
 
@@ -158,12 +185,18 @@ module.exports = [
 {p: "Later, once this one is working, you may want a second flow for people who have bought — to welcome them properly and, eventually, to introduce whatever you make next. Not yet."},
 
 {pb: true},
-{h1: "Chapter 12", sub: "Building Community"},
+{h1: "Chapter 14", sub: "Building Community"},
 {p: "A faceless brand still needs a real community. Without one you have content, not a business. And building one without showing your face is far more possible than people tell you — as long as you show up consistently and let people see the parts of you that are not your face: your thinking, your story, your standards, your work."},
+
+{h2: "Consistency — the number, plainly"},
+{p: "Consistency means showing up at least once a day. In the early stage, posting more than once a day tells the algorithm you are an active account and tells your audience you are reliable. Over time, that reliability is what turns into trust."},
+{p: "A working rule of thumb when starting out on Instagram: two to three Reels a day, and roughly six to eight Stories. As your following grows you can drop to one Reel a day and lean more on Stories."},
+{p: "If that number makes your stomach drop, read it again as what it is — the pace that grows an account fastest, not a moral obligation. Batch it. Sit down once a week and make the week. What you cannot do is disappear for a fortnight and come back expecting the same reach."},
+{prompt: "The number I am committing to, and the day I will batch it", lines: 3},
 
 {h2: "What actually builds it"},
 {b: ["Consistency. Showing up on a rhythm you can sustain, not a burst you will burn out on. Frequency matters less than never disappearing.",
-     "A cohesive look. So people recognise your content before they read your name. This is Signal 3 from Chapter 6, doing its job.",
+     "A cohesive look. So people recognise your content before they read your name. This is Signal 3 from Chapter 7, doing its job.",
      "Your real story. Anyone can copy an aesthetic. Nobody can copy why you started, what it cost, and what changed.",
      "Serving before selling. Especially at the start, when no trust exists yet.",
      "Genuine replies. Answer comments and messages like a person, not a brand. Ask a question back."]},
@@ -175,6 +208,31 @@ module.exports = [
 {h2: "Behind the scenes, without a face"},
 {p: "Genuine glimpses of the real you, none of which require showing yourself: a corner of your desk. What you are reading. A screenshot of something that did not work. A meal. The view from where you write. A short note about something that happened this week."},
 {p: "These resonate more than staged perfection. You are a real person behind the content, and people need evidence of that — not a photograph of your face."},
+
+{h2: "Your story is the part nobody can copy"},
+{p: "This is the most important thing in your branding, and it is easy to miss because it does not look like branding. Anyone can copy your colours. Anyone can copy your fonts, your format, even your hooks. Nobody can copy why you started."},
+{p: "Storytelling works because buying decisions are emotional before they are rational. A story lets someone feel something about you before they have decided anything about you. It also does your filtering for you — the right person recognises herself in it and stays; the wrong one scrolls past, which saves you both time."},
+{p: "None of this requires your face. It requires specifics. “I struggled at the start” is not a story. “I paid for a course I never opened and told nobody for a year” is."},
+{p: "Where the story goes: your captions, your Stories, your emails, your sales pages. Not once — repeatedly, in pieces. Most of your audience has never seen any of it."},
+{b: ["Why you started — the actual moment, not the tidy version.",
+     "What your life looked like before this.",
+     "What you tried that did not work.",
+     "What changed, and what it cost you.",
+     "What you know now that you wish someone had told you."]},
+{prompt: "The moment I started — in specifics, not summary", lines: 6},
+{prompt: "Something I tried that did not work, and what it taught me", lines: 5},
+
+{h2: "Replying like a person"},
+{p: "Answer comments and messages in the tone you would use with a friend, not the tone of a brand account. Ask a question back — a real one. A reply that ends the conversation is a missed one."},
+{p: "Voice notes are worth more than they look. They are unmistakably a person, they take you thirty seconds, and they still show nothing. If you are faceless, an audio reply is the single fastest way to be a human being to someone."},
+{p: "Comments build faster bonds than broadcast ever will. Ten real conversations this week will do more than a hundred posts nobody answered."},
+
+{h2: "The words you use for your people"},
+{p: "The most overlooked part of community building is the language. The words you use to describe your reader are what make her feel recognised — or make her feel like she is watching someone else’s brand."},
+{p: "Pick the words your people already use about themselves, and use them in your captions, Stories and emails. Not a label you invented. The phrase she would type into a search bar at eleven at night."},
+{example: "“Camera shy.” “Quietly building.” “Starting late.” “Not a tech person.” “Private.” Any of these lands harder than “entrepreneurs” ever will."},
+{warn: "Test it out loud. If a phrase would make you wince to say to a friend in person, it will make her wince to read it. Borrowed community language is worse than none."},
+{prompt: "The words my people use about themselves — in their words, not mine", lines: 5},
 
 {h2: "A room of your own"},
 {p: "At some point a group of your own beats posting into a feed. A community space gives people somewhere to go, somewhere to talk to each other, and somewhere you do not have to fight an algorithm to be seen. It is also where the people who already trust you become the people who buy from you."},
@@ -189,10 +247,9 @@ module.exports = [
 {link: "Systeme.io", n: "\u2014 landing pages, email automation and checkout"},
 {tip: "Whatever you choose, set it up once and leave it alone. Rebuilding your tech stack is one of the most convincing forms of procrastination there is, because it genuinely looks like work."},
 {prompt: "One way I will show up consistently", lines: 3},
-{prompt: "The language my people use about themselves \u2014 words that would make them feel recognised", lines: 4},
 
 {pb: true},
-{h1: "Chapter 13", sub: "Faceless Marketing — Instagram"},
+{h1: "Chapter 15", sub: "Faceless Marketing — Instagram"},
 {p: "Instagram is one option, not the only one. If you chose Pinterest or a newsletter in Chapter 4, skim this chapter and come back to it later — nothing here is required."},
 {p: "But if Instagram is where your dream customer is, it can be run entirely without your face. This chapter is how."},
 
@@ -350,7 +407,7 @@ module.exports = [
 {prompt: "Five story ideas I could film this week", lines: 6},
 
 {pb: true},
-{h1: "Chapter 14", sub: "Business Basics"},
+{h1: "Chapter 16", sub: "Business Basics"},
 {p: "This is not legal advice, and requirements vary by country and by state. Talk to a professional about anything specific to your situation. But a few basics apply broadly, and knowing them early saves a mess later."},
 {h2: "If you are setting up formally"},
 {b: ["Choose and register a business name. Check availability before you fall in love with one.",
@@ -363,7 +420,7 @@ module.exports = [
 {prompt: "My next admin step, and the date I will do it", lines: 3},
 
 {pb: true},
-{h1: "Chapter 15", sub: "It's Go Time"},
+{h1: "Chapter 17", sub: "It's Go Time"},
 {p: "Once your product, your shop and your first few pieces of content are ready, launch. A launch does not need to be complicated, and almost everything people do to make it feel bigger is delay wearing a costume."},
 {h2: "The checklist"},
 {check: ["Test your own freebie and checkout, end to end, with a personal email address",
