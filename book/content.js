@@ -1,0 +1,182 @@
+// The Muslimah Faceless Business Blueprint for Beginners
+// Content model. Rendered by build.js
+module.exports = [
+
+{front: true},
+
+{copyright: [
+  "First edition. Published [YEAR] by KMB Digital Consulting.",
+  "Copyright \u00a9 [YEAR] Karrie Noor Chariton. All rights reserved.",
+  "No part of this workbook may be reproduced, distributed, resold or transmitted in any form without the prior written permission of the author. This book is sold for the personal use of the purchaser. No resale, reproduction or redistribution rights are granted with purchase.",
+  "The information in this book is offered in good faith and for general guidance. It is not legal, financial or tax advice. Business requirements differ by country and by state; consult a qualified professional about your own situation.",
+  "No income claim is made or implied anywhere in this book. What you earn depends on your work, your market and your circumstances.",
+  "Some links in this book are affiliate links. If you buy through them I may receive a small commission at no extra cost to you. I only recommend tools I use myself.",
+  "[YOUR CONTACT OR WEBSITE]"
+]},
+
+{toc: [
+  ["1", "Set Your Intention"], ["2", "Create Your Vision"], ["3", "Build Your Brand"],
+  ["4", "Pick a Platform"], ["5", "Optimising Your Profile"],
+  ["6", "The Five Signals \u2014 What Replaces a Face"], ["7", "What You'll Offer"],
+  ["8", "Pricing & Income Goals"], ["9", "Your Freebie"], ["10", "Setting Up Your Shop"],
+  ["11", "Automate With Email"], ["12", "Building Community"],
+  ["13", "Faceless Marketing \u2014 Instagram"], ["14", "Business Basics"], ["15", "It's Go Time"],
+  ["", "About Karrie Noor"], ["", "What To Do Next"]
+]},
+
+{h1: "How This Book Works"},
+{p: "This book takes you from a blank page to a faceless online business that is actually live. Your intention, your vision, your niche, your brand, the trust-building work that replaces a photograph, your offer, your price, your freebie, your email system, your community, and the content that puts it all in front of people."},
+{p: "It is built to be written in, not just read. Every chapter ends with lines for you to fill in before you move on. Skipping the fill-ins is the fastest way to finish the book and still not have a business."},
+{p: "Work through it in order once. After that, come back to whichever chapter you need. Inshallah."},
+{note: "A word on how this is written. Nothing in here assumes you want to be on camera. Where a platform is named, it is named as an option, not an instruction. Where I have a number, I give you the number. Where I do not, I tell you that instead."},
+
+{pb: true},
+{h1: "Chapter 1", sub: "Set Your Intention"},
+{p: "Before anything else — before the niche, the name, the plan — set your intention. In Islam, intention (niyyah) comes first. It is what turns an ordinary action into something with purpose. Every deed is judged by the intention behind it."},
+{p: "So before you build anything, sit with this honestly. Why are you really doing this? Who is it for, beyond just you? What would it mean for your family, your deen, your sense of purpose, if this actually worked?"},
+{p: "There is no wrong answer here, and you do not have to make it sound noble. “I want my own money” is an intention. “I want to stop asking” is an intention. “I want something that is mine” is an intention. Write the true one, not the presentable one."},
+{prompt: "My intention. Write it as a statement you could return to on a hard day. Something like: “I am building this so that…”", lines: 6},
+{h2: "A short dua before you begin"},
+{p: "Take a moment, however that looks for you, and ask Allah to put barakah in the work ahead — in your time, your effort, and what comes from it. Write your own words below, or come back to this page whenever you need to reset your intention."},
+{prompt: "My dua", lines: 5},
+
+{pb: true},
+{h1: "Chapter 2", sub: "Create Your Vision"},
+{p: "Now dream. Not carefully, not realistically. What do you actually want?"},
+{p: "As a midlife woman, take off the hat you are wearing right now — mother, wife, daughter, caregiver, employee — just for these few minutes. What do you want? Do not think yet about how you would get it."},
+{p: "Allah can give you anything He wills. Do not shrink your vision down to what feels achievable before you have even let yourself imagine the full thing. You can always narrow it later. That comes next. But it starts here, big."},
+{prompt: "Dream big — let it be too much. If nothing was in your way (money, time, fear), what would you build? What would your days look like? Who would you be helping? Write without editing yourself.", lines: 10},
+
+{h2: "Know your why"},
+{p: "Without a why, you will give up when it gets hard. And it will get hard — not dramatically, just quietly, on a Tuesday when you are tired and nothing has happened yet."},
+{p: "Ask yourself these, and answer them honestly rather than impressively:"},
+{b: ["What first attracted me to the idea of building something online?",
+     "What do I most want this work to do in the world?",
+     "How would this change my life?",
+     "What would the people I love gain from it?"]},
+{p: "Dig deeper than the first answer. The first answer is usually the one you think you are supposed to give. The businesses that last solve a real problem from a real place."},
+{prompt: "My why, in my own words", lines: 6},
+
+{h2: "Choose your niche"},
+{p: "A niche is simply the specific area you focus on. It is what makes your content recognisable and lets you attract people who are actually interested, rather than everyone and no one."},
+{p: "Why it matters: when you have a clear niche you build a following with focused interest, which makes it far easier to sell to them later. It builds credibility, because you become known for something. And it makes you memorable in a very crowded room."},
+{p: "A niche that works sits at the intersection of four things:"},
+{b: ["What you are genuinely curious about — the thing you would read about anyway",
+     "What you already know something about — and you do not have to be an expert",
+     "A real problem you can solve for someone",
+     "Enough people who want that problem solved, and would pay to have it solved"]},
+{p: "Most niches sit under a few large umbrellas. A few to get you thinking: health (physical, mental, spiritual); wealth (money, business, career); relationships (marriage, parenting, family); home and lifestyle; faith and personal growth."},
+{p: "Then narrow. “Health” is not a niche. “Gentle strength training for women over fifty” is a niche. “Faith” is not a niche. “Helping new Muslim women through their first Ramadan” is a niche."},
+{prompt: "Ideas for my niche — write three to five. Narrow later.", lines: 6},
+{prompt: "The one I am starting with, and why", lines: 4},
+
+{h2: "Choose your dream customer"},
+{p: "Every product solves a problem for a specific person. The clearer that person is in your mind, the easier every other decision in this book becomes — what to write, what to sell, what to charge."},
+{p: "Get concrete. Age range. Life stage. What she does all day. What she is struggling with. What she would need from you to feel seen rather than sold to."},
+{p: "If you have ever done related work — even informally, even as a volunteer, even for free for a friend — think about who you wanted to serve then. That is usually the clearest answer to who your dream customer already is."},
+{p: "A few questions to get you moving: How old is she? Where does she live? What does she do? What is she responsible for? What does she want that she has not said out loud? What does she need from you?"},
+{example: "“I want to help midlife Muslim women build online businesses without showing their faces.”"},
+{prompt: "My dream customer, in a few sentences. Give her a name if it helps.", lines: 8},
+
+{pb: true},
+{h1: "Chapter 3", sub: "Build Your Brand"},
+{p: "Your brand is bigger than colours and fonts. It is how you make people feel, what you are known for, and the story only you can tell. Two people can copy the same aesthetic. Nobody can copy your story."},
+
+{h2: "The four decisions"},
+{b: ["Tone — how you sound. Calm, direct, warm, plainspoken, funny, serious.",
+     "Style — how things look. Simple, warm, modern, minimal, rich, bright.",
+     "Values — what you stand for, and what you will not do for money.",
+     "Your story — the real reason you started, in your own words."]},
+{p: "That third one matters more than people expect. What you will not promote, will not sell, will not work on — that is judgement, and judgement only comes from having seen things go wrong. Most people hide their standards because they think they will lose customers. You will not. Standards are how the right person recognises you."},
+{prompt: "My tone — three words", lines: 2},
+{prompt: "My style — three words", lines: 2},
+{prompt: "My values — and one thing I will not do", lines: 4},
+
+{h2: "Visual identity"},
+{p: "Your visual identity is everything from your profile image to the fonts and colours in your content. Consistency is what makes a brand recognisable. It is doing, for free, the job a face would otherwise do."},
+{p: "Start a Pinterest board before you decide anything. Save whatever feels like the brand you are picturing — colours, fonts, layouts, moods. You do not have to know why yet. Just collect. Pay attention to what repeats."},
+{link: "Canva", n: "\u2014 design, templates, colour palettes"},
+{tip: "Search “colour palette” or “font pairing” on Pinterest or inside Canva. Coolors.co will also build you a palette in seconds. Remember that less is more — you want two fonts and three or four colours, not twelve."},
+{p: "Set a timer for this. An hour, no more. Fonts and colours are one of the easiest places to disappear into and call it work."},
+{prompt: "My Pinterest board name or link", lines: 2},
+
+{h2: "Tone of voice"},
+{p: "Your tone of voice is how you express yourself in words — not just which words, but your sentence lengths, your punctuation, whether you use emojis, whether you are formal or plain. It should be consistent everywhere: your content, your emails, your product, your shop."},
+{p: "The simplest test there is: read it out loud. If you would never say it to someone sitting at your kitchen table, rewrite it."},
+{prompt: "We sound… (three words or phrases)", lines: 3},
+{prompt: "We never sound… (three words or phrases)", lines: 3},
+
+{h2: "Your faceless persona"},
+{p: "Your persona is what comes through in your writing, your images and your voice, without your face. It is built from your personality, your story, and a consistent visual identity that does not include a photograph of you."},
+{p: "Share real parts of yourself while keeping your privacy. People connect with real people, and they can do that without seeing you. Storytelling is how that connection actually happens — which is what the next chapters are about."},
+{prompt: "Three stories I could tell. They do not need to be polished. Just get the raw material down — three stories connected to who you want to help and why.", lines: 9},
+
+{pb: true},
+{h1: "Chapter 4", sub: "Pick a Platform"},
+{p: "Before you name anything or write a single bio, decide where you are actually going to show up. Pick a platform based on where your dream customer already spends time, not where you personally like scrolling."},
+{h2: "A rough guide"},
+{b: ["Instagram — skews younger and more millennial. Visual, fast-moving, rewards volume.",
+     "Facebook — often a stronger fit for Gen X and over-fifties. Groups are still powerful.",
+     "YouTube — long-form, works across ages, and searchable years later.",
+     "Pinterest — search-based rather than social. Slow to start, compounds for years, pairs well with a blog or a shop.",
+     "A newsletter — no algorithm at all. You own the list."]},
+{p: "Your platform choice should match what you are selling and how. A blog paired with Pinterest is a different strategy from a fast-moving Instagram presence. Neither is better. They are just different trades: speed against longevity, reach against ownership."},
+{p: "Start with one. Show up consistently there before you add a second. Two platforms done badly is worse than one done properly, and it is roughly four times the work."},
+{prompt: "My starting platform, and why", lines: 4},
+{prompt: "The platform I am deliberately not starting with (and when I might)", lines: 3},
+
+{pb: true},
+{h1: "Chapter 5", sub: "Optimising Your Profile"},
+{p: "Before you name your page, find out how people actually search for what you do. Type a few phrases into the search bar on your chosen platform and see what comes up — the accounts, the wording, the phrases that repeat. Those real phrases are your keywords, and they should shape the name and bio you land on next."},
+{prompt: "Keywords I found", lines: 4},
+
+{h2: "Naming your page"},
+{p: "Pick something clear about who you help. Avoid naming yourself after a single trend or format — a name tied too tightly to one thing makes it harder to evolve later."},
+{p: "You have two layers, and mixing them up causes trouble. There is your name — the person. And there is your publication — the thing people follow and subscribe to. They do not have to be the same, and on a search-driven platform the publication name usually does more work, because nobody is looking for you by name yet."},
+{prompt: "Name ideas", lines: 4},
+
+{h2: "Writing your bio"},
+{p: "Your bio is the first real impression, and most people waste it describing themselves. Include four things: one clear line about what you do, who it is for, how you help them, and a next step."},
+{p: "The three-second test: show your profile to somebody who does not know you. Ask them what the page is about, who it is for, what it posts, and why somebody would follow. If they cannot answer all four, it is too vague."},
+{prompt: "Bio draft", lines: 6},
+{prompt: "My one next step (the link, the freebie, the action)", lines: 2},
+
+{pb: true},
+{h1: "Chapter 6", sub: "The Five Signals — What Replaces a Face"},
+{p: "A face is a shortcut. When someone sees you, they make a fast judgement — she seems real, she seems like she knows what she is talking about, she seems like me. That happens before they read a word."},
+{p: "Take the face away and you do not lose trust. You lose the shortcut. So you build the same trust the slower way, on purpose, with five signals."},
+{p: "Most faceless accounts feel cold because three or four of these are missing — not because there is no photo."},
+
+{h2: "Signal 1 — Lived experience"},
+{p: "The years standing behind what you say. You are not starting from nothing; you are starting from decades of paying attention. That cannot be faked, bought, or produced quickly."},
+{ws: ["Consistency is important when you are building a business.", "I rebuilt my business from scratch three times before I understood that the rebuilding was the problem."]},
+{prompt: "Three things I know now that I did not know ten years ago", lines: 5},
+
+{h2: "Signal 2 — Receipts"},
+{p: "Showing the work when you cannot show the worker. A receipt does not have to be impressive. It has to be real and it has to be yours. A dated screenshot beats an adjective every time. If you do not have the number, say so and give the one you do have — a reader forgives a small number instantly, and never forgives a vague one."},
+{prompt: "One receipt I could screenshot this week", lines: 3},
+
+{h2: "Signal 3 — A recognisable package"},
+{p: "Looking the same for long enough that people learn you. Two fonts. Three or four colours. One layout you repeat. Not because it is beautiful — because repetition does, for free, the job a face would have done."},
+{p: "Pick today. Use it for ten pieces without changing anything. You are allowed to redesign after ten, not before."},
+{prompt: "Font 1 / Font 2 / My colours / The date I am allowed to revisit this", lines: 5},
+
+{h2: "Signal 4 — Your actual voice"},
+{p: "Sounding like one specific human being. Faceless is not voiceless. You can keep your face out of it entirely and still be completely present."},
+{p: "On AI, plainly: use it for the parts that carry no judgement — sorting, tidying, giving you twenty options to react to. The moment it starts supplying what you think, you have handed over the only part that was working."},
+{ws: ["In today’s fast-moving digital landscape, consistency is key.", "I skipped two weeks in Ramadan and nothing bad happened."]},
+{prompt: "One line of mine, rewritten by hand", lines: 4},
+
+{h2: "Signal 5 — Consistency you can hold"},
+{p: "A number you can keep in a bad week. Not a schedule somebody else designed for a life that is not yours. Pick the number you could keep on your worst week, not your best one. Everyone picks their best-week number, then misses it, and the missing is what makes people quit."},
+{p: "You will miss it. Someone will get sick. Work will go sideways. When it happens, do not spend a week feeling bad about it. Open the plan and start again on the next one."},
+{prompt: "My number / my unit (posts, hours, actions) / the worst week I could still do this in", lines: 4},
+
+{h2: "The Five Signals audit"},
+{p: "Score yourself honestly. There is no version of this where all five start high."},
+{audit: ["Lived experience", "Receipts", "A recognisable package", "Your actual voice", "Consistency you can hold"]},
+{p: "Do not try to fix all five. Take your lowest score and work on it for thirty days. If everything scored low, start with the package — it is the fastest to change, it costs nothing, and it is the one that stops you starting over."},
+{prompt: "My lowest signal, and what I will actually do about it for thirty days", lines: 5},
+{p: "You do not need a face. You need to be findable, and the same, for long enough that somebody recognises you. That is the whole job."}
+
+];
