@@ -105,8 +105,30 @@ ranges ($10-$50) only. Keep new writing to this style.
 
 ## Rules in the document
 
-Three kinds, all deliberate, none stray:
+Three kinds, all deliberate:
   D6A23E sz12 (22x)  amber rule under each chapter title and CONTENTS
   E5DFD6 sz4  (6x)   faint divider between a filled-in template and
                      "Now write yours." - only in ch13 and ch16
   C9C2B8 sz4  (389x) the writing lines themselves
+
+## The stray rule at a page bottom (fixed in v10)
+
+Symptom: a thin line alone at the very bottom of a page, with no writing
+line above it.
+
+Cause: trimming writing lines in Word to pull the next section to a page
+top. Word keeps the paragraph's bottom border even after the paragraph
+stops being a writing line. Two survived:
+
+  para 71  "My dua"           - emptied and reused as the page-break
+                                carrier; kept its border
+  para 126 "Ideas for my niche" - its siblings had borders stripped,
+                                this one did not
+
+Fix: remove the <w:pBdr> block only. The paragraph keeps its height, so
+pagination does not move.
+
+To find more later, look for a bordered paragraph standing alone - a run
+of exactly ONE writing line. Runs of two are by design (My tone, My style,
+My Pinterest board, My one next step, and the 30-day / quarter / year
+goals).
