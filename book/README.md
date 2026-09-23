@@ -98,10 +98,10 @@ chapters 9-18 only, and are now out of date relative to the manuscript.
 
 ## House style (from v8)
 
-American English (color, recognize, license, optimize), dollars not pounds,
-and no em dashes. Chapters 9-18 are converted. Chapters 1-8 still hold 64
-em dashes and the British "judgement" - Karrie is working through those
-herself, so leave them.
+American English (color, recognize, license, optimize, judgment), dollars
+not pounds, and no em dashes anywhere. As of v9 the whole manuscript is
+converted: zero em dashes, zero "judgement". En dashes are kept for numeric
+ranges ($10-$50) only. Keep new writing to this style.
 
 ## Rules in the document
 
