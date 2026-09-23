@@ -76,3 +76,37 @@ Fill these before publishing or remove the block.
 `python3 pagecount.py` estimates pages by walking word/document.xml. It is an estimate,
 not a render - LibreOffice cannot open docx-js output in this environment. Confirm the
 real count, and that the total is even, in Word before uploading to KDP.
+
+## Source of truth changed at v8
+
+From v8 the .docx IS the manuscript. Karrie hand-edited chapters 1-8 in Word
+(page spacing so sections start at the top of a page, American spelling, some
+em dashes removed, added lines, pounds -> dollars). Those edits do not exist
+in content.js and cannot be expressed in it.
+
+Running `node build.js` now REGENERATES FROM content.js AND DESTROYS HER EDITS.
+Do not run it against the live manuscript. Edit word/document.xml directly:
+
+    unzip -q book.docx -d x/
+    python3 scripts/merge_runs.py x/      # coalesce runs first
+    # edit x/word/document.xml
+    (cd x && zip -Xrq ../out.docx .)
+    python3 scripts/office/validate.py out.docx --original book.docx
+
+content.js / content2.js / build.js are kept as the generation history for
+chapters 9-18 only, and are now out of date relative to the manuscript.
+
+## House style (from v8)
+
+American English (color, recognize, license, optimize), dollars not pounds,
+and no em dashes. Chapters 9-18 are converted. Chapters 1-8 still hold 64
+em dashes and the British "judgement" - Karrie is working through those
+herself, so leave them.
+
+## Rules in the document
+
+Three kinds, all deliberate, none stray:
+  D6A23E sz12 (22x)  amber rule under each chapter title and CONTENTS
+  E5DFD6 sz4  (6x)   faint divider between a filled-in template and
+                     "Now write yours." - only in ch13 and ch16
+  C9C2B8 sz4  (389x) the writing lines themselves
